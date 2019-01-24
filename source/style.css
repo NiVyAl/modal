@@ -16,7 +16,7 @@ body {
   box-sizing: border-box;
   border-radius: 48px;
   padding: 106px 83px 126px 125px;
-  background-image: url(shop_center-icon.png);
+  background-image: url(img/shop_center-icon.png);
   background-repeat: no-repeat;
   background-size: 25%;
   
@@ -32,7 +32,7 @@ body {
   border-radius: 50%;
   background: #FDFDFD;
   box-shadow: 0 2px 20px 0 rgba(0,0,0,0.30);
-  background-image: url("shopping_cart_love-icon.png");
+  background-image: url("img/shopping_cart_love-icon.png");
   background-repeat: no-repeat;
   background-size: 50%;
   background-position: center center;
@@ -136,7 +136,7 @@ body {
   text-align: left;
   border-radius: 56px;
   line-height: 35px;
-  background: url("email-icon.png") 75% center, linear-gradient(-270deg, #049F77 0%, #677BBF 98%);
+  background: url("img/email-icon.png") 75% center, linear-gradient(-270deg, #049F77 0%, #677BBF 98%);
   background-repeat: no-repeat;
   background-size: 7%, auto;
   text-transform: uppercase;
