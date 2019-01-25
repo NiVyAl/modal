@@ -1,18 +1,15 @@
 .modal {
   font-family: 'Montserrat', sans-serif;
   max-width: 1163px;
-  //max-width: 1014px;
   background: #FDFDFD;
   box-shadow: 0 2px 20px 0 rgba(0,0,0,0.30);
   box-sizing: border-box;
   border-radius: 48px;
-  //padding: 106px 83px 126px 125px;
   padding: 9.2% 6.8% 10.2% 10.8%;
 }
 
 .modal__title {
   text-transform: capitalize;
-  //font-size: 4.3vw;
   font-size: 52px;
   color: #000000;
   letter-spacing: -0.14px;
@@ -27,14 +24,11 @@
 }
 
 .modal__container {
-  //margin-left: 483px;
-  //margin-left: 358px;
   padding-left: 38%;
   background-image: url(img/shop_center-icon.png);
   background-repeat: no-repeat;
-  //background-size: 300px;
   background-size: 32%;
-  background-position: left 20%; // left 10%;
+  background-position: left 20%;
   position: relative;
 }
 
@@ -42,8 +36,6 @@
   content: "";
   display: block;
   position: absolute;
-  //width: 113px;
-  //height: 113px;
   border-radius: 50%;
   background: #FDFDFD;
   box-shadow: 0 2px 20px 0 rgba(0,0,0,0.30);
@@ -51,7 +43,6 @@
   background-repeat: no-repeat;
   background-size: 50%;
   background-position: center center;
-  
   width: 10px;
   height: 10px;
   padding: 6%;
@@ -74,9 +65,9 @@
   }
 }
 
-@media (max-width: 870px) {
+@media (max-width: 875px) {
   .modal {
-    padding: 50px 50px;
+    padding: 6% 6%;
     background-position: center 120px;
     background-size: 170px;
   }
@@ -93,7 +84,6 @@
   
   .modal__container {
     padding: 0;
-    //padding-top: 150px;
     padding-top: 30%;
     background-position: center 5%;
   }
@@ -101,5 +91,23 @@
   .modal__container::before {
     top: 27%;
     left: 55%;
+  }
+}
+
+@media (max-width: 570px) {
+  .modal__container {
+    background-size: 160px;
+    padding-top: 40%;
+  }
+  
+  .modal__container::before {
+    padding: 28px;
+    top: 24%;
+  }
+}
+
+@media (max-width: 400px) {
+  .modal__container {
+    padding-top: 50%;
   }
 }

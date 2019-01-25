@@ -1,6 +1,5 @@
 .email-input {
   width: 100%;
-  //height: 100px;
   box-sizing: border-box;
   font-size: 26px;
   color: #9F9F9F;
@@ -9,13 +8,11 @@
   text-transform: capitalize;
   border-radius: 56px;
   border: 1px solid #9F9F9F;
-  
   padding: 6% 0;
 }
 
-@media (max-width: 870px) { 
+@media (max-width: 875px) { 
   .email-input {
-    //height: 80px;
     padding: 4% 0;
     font-size: 22px;
   }

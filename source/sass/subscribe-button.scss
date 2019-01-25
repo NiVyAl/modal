@@ -1,6 +1,5 @@
 .subscribe-button {
   width: 100%;
-  //height: 100px;
   box-sizing: border-box;
   font-size: 24px;
   color: #FFFFFF;
@@ -11,21 +10,23 @@
   line-height: 35px;
   background: url("img/email-icon.png") 75% center, linear-gradient(-270deg, #049F77 0%, #677BBF 98%);
   background-repeat: no-repeat;
-  //background-size: 7%, auto;
   text-transform: uppercase;
-  //padding-left: 30%;
   padding: 6% 30%;
-  
   background-size: 45px, auto;
-  //padding-left: 177px;
 }
 
-@media (max-width: 870px) { 
+@media (max-width: 875px) { 
   .subscribe-button {
-    //height: 80px;
     padding: 4% 30%;
     font-size: 20px;
     background-size: 35px, auto;
-    background-position: 65% center;
+    background-position: 68% center;
+  }
+}
+
+@media (max-width: 570px) {
+  .subscribe-button {
+    background-position: 80% center;
+    padding: 4% 20%;
   }
 }
